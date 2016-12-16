@@ -1,0 +1,78 @@
+#loginbutton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    height: 50px;
+    width : 90px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#loginbutton:hover{
+    /*background-color: #a3a2a2;*/
+    background-repeat:no-repeat;
+    /*border: none;*/
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+table{
+    color: white;
+    /*margin-left: 350px;*/
+}
+#tabledata{
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+th{
+    width: 200px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+
+nav a {
+    display: block;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+body#mhome a#mhomenav,body#mcustomerinfo a#mcustomernav,body#mproductinfo a#mproductinfonav,body#msupplierinfo a#msuppliernav,body#mcoin a#mcoinnav,body#mseller a#msellernav{
+    color: red;
+}
+
+
+
+body {
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.search_box {
+    height: 17px;
+    width: 150px;
+    background-image: url("Search_back.png");
+    -webkit-background-size: cover;
+
+    background-size: cover;
+}

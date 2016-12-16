@@ -1,0 +1,118 @@
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+nav a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+}
+body#home a#homenav,body#bill a#billnav,body#onlineorders a#ordernav{
+   color: red;
+}
+body#home a#homenav,body#supplieroptions a#supplieroptionsnav,body#customerinfo a#customerinfonav,body#productinfo a#productinfonav{
+    color: red;
+}
+body#mhome a#mhomenav,body#mproduct a#mproductnav,body#msupplier a#msuppliernav,body#mcustomer a#mcustomernav{
+   color: red;
+}
+body#productoptions a#poptionsnav{
+    color:red;
+}
+
+body {
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loginbutton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    height: 50px;
+    width : 140px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.loginbutton:hover{
+    /*background-color: #a3a2a2;*/
+    background-repeat:no-repeat;
+    /*border: none;*/
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.search_box {
+    height: 17px;
+    width: 150px;
+    background-image: url("Search_back.png");
+    -webkit-background-size: cover;
+
+    background-size: cover;
+}
+
+#b2,#b4,#b6,#b8,#b10,#b12,#b14,#b16,#b18,#b20 {
+    margin-right: 60px;
+
+}
+
+table {
+    width: 800px;
+    margin-left: 250px;
+}
+th {
+    width: 200px;
+}
+#b1,#b3,#b5,#b7,#b9,#b11,#b13,#b15,#b17,#b19 {
+    color: white;
+}
+
+.MySellerTable{
+    color: white;
+}
+
+.MySellerButton{
+    
+     background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    height: 30px;
+    width : 100px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+.MySellerButton:hover{
+    /*background-color: #a3a2a2;*/
+    background-repeat:no-repeat;
+    /*border: none;*/
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
